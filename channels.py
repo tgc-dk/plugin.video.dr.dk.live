@@ -63,27 +63,27 @@ class TV2RChannel(Channel):
 # http://www.dr.dk/mu/Bundle?ChannelType=%24eq%28%22TV%22%29&BundleType=%24eq%28%22Channel%22%29&DrChannel=true&limit=0
 # DR1
 Channel(1, CATEGORY_DR,
-        url='http://dr01-lh.akamaihd.net/i/dr01_0@147054/master.m3u8?b=100-2000',
+        url='https://dr01-lh.akamaihd.net/i/live/dr01_0@147054/master.m3u8',
         fanart='http://www.dr.dk/mu/Asset?Id=52d3f40f6187a2077cbac703')
 # DR2
 Channel(2, CATEGORY_DR,
-        url='http://dr02-lh.akamaihd.net/i/dr02_0@147055/master.m3u8?b=100-2000',
+        url='https://dr02-lh.akamaihd.net/i/live/dr02_0@147055/master.m3u8',
         fanart='http://www.dr.dk/mu/Asset?Id=52d3f5e66187a2077cbac70c')
 # DR 3
 Channel(6, CATEGORY_DR,
-        url='http://dr03-lh.akamaihd.net/i/dr03_0@147056/master.m3u8?b=100-1600',
+        url='https://dr03-lh.akamaihd.net/i/live/dr03_0@147056/master.m3u8',
         fanart='http://www.dr.dk/mu/Asset?Id=52d3f60da11f9d0f50f56fd3')
 # DR Ultra
 Channel(3, CATEGORY_DR,
-        url='http://dr06-lh.akamaihd.net/i/dr06_0@147059/master.m3u8?b=100-1600',
+        url='https://dr06-lh.akamaihd.net/i/live/dr06_0@147059/master.m3u8',
         fanart='http://www.dr.dk/mu/bar/52d3f6c6a11f9d0f50f56fde')
 # DR K
 Channel(4, CATEGORY_DR,
-        url='http://dr04-lh.akamaihd.net/i/dr04_0@147057/master.m3u8?b=100-1600',
+        url='https://dr04-lh.akamaihd.net/i/live/dr04_0@147057/master.m3u8',
         fanart='http://www.dr.dk/mu/Asset?Id=52d3f685a11f9d0f50f56fd6')
 # DR Ramasjang
 Channel(5, CATEGORY_DR,
-        url='http://dr05-lh.akamaihd.net/i/dr05_0@147058/master.m3u8?b=100-1600',
+        url='https://dr05-lh.akamaihd.net/i/live/dr05_0@147058/master.m3u8',
         fanart='http://www.dr.dk/mu/bar/52d3f6aca11f9d0f50f56fdb')
 
 # TV2 Fyn
@@ -106,5 +106,3 @@ Channel(109, CATEGORY_TV2_REG, 'rtmp://itv08.digizuite.dk/tv2b/ch1 live=1')
 # http://ft.arkena.tv/xml/core_player_clip_data_v2_REAL.php?wtve=187&wtvl=2&wtvk=012536940751284&as=1
 # Folketinget
 Channel(201, CATEGORY_MISC, 'rtmp://ftflash.arkena.dk/webtvftlivefl/ playpath=mp4:live.mp4 pageUrl=http://www.ft.dk/webTV/TV_kanalen_folketinget.aspx live=1')
-# kanalsport.dk
-Channel(203, CATEGORY_MISC, 'http://lswb-de-08.servers.octoshape.net:1935/live/kanalsport_1000k/playlist.m3u8')
